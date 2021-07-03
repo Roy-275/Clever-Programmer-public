@@ -1,0 +1,42 @@
+body {
+    background: #555;
+}
+.container {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25pt;
+    margin-top: 20px;
+}
+.btn-container, .flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ .click {
+    margin-bottom: 20px;
+    font-size: 15pt;
+    background: green;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+.reset {
+    margin-bottom: 20px;
+    font-size: 15pt;
+    background: red;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    width: 150px;
+}
+.flexbox img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    box-shadow: -10px 20px  20px #333;
+}
